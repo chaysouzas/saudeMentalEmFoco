@@ -1,0 +1,775 @@
+.banner__header{
+    width: 100vh;
+    margin-top: -3em;
+    margin-bottom: 2em;
+
+}
+
+.container__frase-informativa{
+    background-color: var(--verde);
+    padding: 1em;
+    margin-bottom: 2em;
+
+}
+
+.frase-informativa-texto{
+    color: var(--background-color);
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.container__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 2em;
+    
+}
+
+.card-conteudo{
+    width: 293px;
+    height: 214px;
+    margin: 2em auto;
+}
+
+.banner__header-desktop, .frase-informativa-texto-desktop, .container__cards-desktop{
+    display: none;
+}
+
+.imagem-contato-profissionais-mobile{
+    display: flex;
+    margin: 4em auto;
+    height: 600px;
+}
+.contato__profissionais-desktop{
+    display: none;
+}
+
+/* PAGINA ARTETERAPIA */
+
+.banner_arteterapia-desktop{
+    display: none;
+}
+.banner__nise-de-oliveira-desktop{
+    display:none;
+}
+
+.banner_cenario-dos-sonhos-desktop{
+    display: none;
+}
+
+img.banner_arteterapia-mobile {
+    margin: 3em auto;
+}
+
+button.botao__indica-videos {
+    margin: 2em auto;
+    text-align: center;
+    display: flex;
+    background-color: var(--rosa);
+    padding: 1em;
+    color: var(--background-color);
+    font-weight: 700;
+}
+
+img.banner__nise-de-oliveira-mobile {
+    margin: 4em auto;
+}
+
+img.imagem-pelicula {
+    margin: 4em auto;
+    width: 280px;
+}
+
+.link__filme-nise-de-oliveira{
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+
+.link__filme-nise-de-oliveira:hover{
+    color: var(--verde);
+}
+
+
+.texto-filme-nise {
+    background-color: var(--rosa);
+    padding: 2em;
+    text-align: center;
+    color: var(--background-color);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h1.titulo_pratica-arteterapia {
+    text-align: center;
+    margin: 4em auto 3em;
+    color: var(--verde);
+    font-weight: 700;
+}
+
+.notes__container-mobile {
+    display: flex;
+    margin: auto;
+    width: 85%;
+    flex-direction: column;
+    gap: 2em;
+}
+
+img.banner_cenario-dos-sonhos-mobile {
+    margin: 4em auto;
+}
+
+.dicas-adicionais__container > h1 {
+    text-align: center;
+    margin: 2em auto 2em;
+    color: var(--verde);
+    font-weight: 700;
+}
+
+.dicas-adicionais-texto {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 2em;
+    padding: 2em;
+    gap: 1em;
+    color: var(--verde);
+    background-color: var(--amarelo);
+    border-radius: 16px;
+}
+
+
+/* PÁGINA TERAPIA SOCIAL*/
+
+.banner__encontre-ajuda-desktop, .banner-cvv-desktop{
+    display: none;
+}
+
+img.banner__encontre-ajuda-mobile, img.banner-cvv-mobile{
+    display:  flex;
+    margin: auto;
+}
+
+h1.titulo__terapia-social {
+    text-align: center;
+    color: var(--verde);
+    font-size: 27px;
+    margin: 2em;
+}
+
+.cards-terapia-social__container {
+    display: flex;
+    flex-direction: column;
+    margin: 4em auto;
+    width: 80%;
+    gap: 5em;
+}
+
+.card__terapia-social {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding:1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h1.card__titulo {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--verde);
+}
+
+p.card__texto {
+    font-size: 18px;
+    color: var(--verde);
+}
+
+a.card__terapia-social-link {
+    background-color: var(--verde);
+    color: var(--background-color);
+    text-align: center;
+    padding: 2em;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 50px;
+    margin: 1em;
+  
+}
+
+a.card__terapia-social-link:hover{
+    background-color:var(--amarelo) ;
+    color: var(--verde);
+
+}
+
+a.botao-saiba-mais-cvv{
+    display: flex;
+    background-color: var(--rosa);
+    color: var(--background-color);
+    padding: 1em;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 50px;
+    margin: 4em auto;
+    justify-content: center;
+    max-width: 70%;
+}
+
+a.botao-saiba-mais-cvv:hover{
+    background-color:#1E559E ;
+    color: var(--amarelo);
+}
+
+/*PÁGINA INDICAÇÕES*/
+
+.banner__nossas-indicacoes-desktop, .banner__indicacoes-livros-desktop{
+    display:none;
+}
+
+.banner__nossas-indicacoes-mobile, .banner__indicacoes-livros-mobile{
+    display: flex;
+    margin: 2em auto;
+    width: 100%;
+}
+
+
+
+.indicacoes-livros__titulo{
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--verde);
+    text-align: center;
+    margin: 3em;
+    background: var(--amarelo);
+    border-radius: 50px;
+    padding: 1em;
+}
+
+img.banner-voce-sabia-chamada-arteterapia {
+    max-width: 96%;
+    display: flex;
+    margin: 1em auto;
+}
+
+button.voce-sabia-chamada-arteterapia__botao {
+    display: flex;
+    margin: 2em auto;
+    background-color: var(--rosa);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1em;
+    border-radius: 16px;
+}
+
+button.voce-sabia-chamada-arteterapia__botao:hover{
+    color: var(--rosa);
+    background-color: var(--amarelo);
+}
+
+img.banner_meditacao-desktop {
+    display: none;
+}
+
+img.banner_meditacao-mobile {
+    display: flex;margin: 4em auto;width: 100%;
+}
+
+button.botao_link-meditacao{
+    display: flex;
+    margin: 2em auto;
+    background-color: var(--verde);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1em;
+    border-radius: 16px;
+}
+
+button.botao_link-meditacao:hover{
+    background-color: var(--rosa);
+}
+
+img.logo__pagina-indicacoes {
+    margin: 4em auto;
+    width: 200px;
+}
+
+/*PÁGINA QUEM SOMOS*/
+
+.banner__quem-somos-desktop, .banner_entre-em-contato-desktop{
+    display:none;
+}
+
+img.banner__quem-somos-mobile {
+    display: flex;
+    margin: 2em auto;
+    width: 100vh;
+}
+
+p.quem-somos__texto {
+    text-align: center;
+    margin: 4em auto;
+    color: var(--verde);
+    font-weight: 600;
+}
+
+.quem-somos__container {
+    padding: 2em;
+}
+
+img.banner_entre-em-contato-mobile {
+    display: flex;
+    margin: 2em auto;
+}
+
+.container__contato-icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    margin: 6em;
+}
+
+img.contato__link-img {
+    width: 48px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    
+    .banner__header {
+        display: none;
+    }
+
+    .container__cards{
+        display: none;
+    }
+
+    .container__frase-informativa{
+        display: none;
+    }
+
+    .banner__header-desktop{
+        display: flex;
+    }
+
+    .container__frase-informativa-desktop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--verde);
+        margin-top:2em;
+        margin-bottom: 2em;
+        padding:1em;
+    }
+
+    .frase-informativa-texto-desktop{
+        display: flex;
+        color: var(--background-color);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+
+    .container__cards-desktop{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+        grid-template-rows: auto auto;         /* 2 linhas automáticas */
+        gap: 1em;                             /* espaçamento entre os cards */
+        max-width: 800px;                      /* largura máxima opcional */
+        margin: 0 auto;                        /* centraliza na página */
+        padding: 4em;
+    }
+
+    .card-conteudo-desktop{
+        width: 303px;
+        height: 195px;
+    }
+
+    .contato__profissionais-mobile{
+        display: none;
+    }
+
+    .contato__profissionais-desktop{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /*PÁGINA ARTETERAPIA*/
+
+    .banner_arteterapia-mobile, .banner__nise-de-oliveira-mobile, .banner_cenario-dos-sonhos-mobile{
+        display: none;
+    }
+
+    .banner_arteterapia-desktop, .banner__nise-de-oliveira-desktop{
+        display: flex;
+        margin: 4em auto;
+    }
+
+    .botao__indica-videos:hover{
+        background-color: var(--amarelo);
+        color: var(--rosa);
+    }
+
+    h1.titulo_pratica-arteterapia {
+    margin: 2em auto 2em;
+    font-size: 24px;
+}
+
+    .notes__container-desktop{
+        display: flex;
+        flex-direction: row;
+        margin: 4em  auto;
+        justify-content: center;
+        
+    }
+
+    .notes__container-desktop > img{
+        width: 220px;
+    }
+
+    
+
+    .dicas-adicionais__container > h1 {
+    
+    margin: 2em auto 2em;
+    font-size: 24px;
+    color: var(--verde);
+}
+
+    .dicas-adicionais-texto {
+        margin: 2em 2em 4em;
+    }
+
+    .banner_cenario-dos-sonhos-desktop{
+    display: flex;
+}
+
+/*PÁGINA BUSCAR AJUDA*/
+
+    img.banner__encontre-ajuda-mobile, img.banner-cvv-mobile{
+        display: none;
+    }
+
+    .banner__encontre-ajuda-desktop, .banner-cvv-desktop{
+        display: flex;
+    }
+
+    a.card__terapia-social-link {
+    display:  flex;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em auto;
+    width: 70%;
+   
+}
+
+ /*PÁGINA INDICAÇÕES*/
+
+ .banner__nossas-indicacoes-mobile, .banner__indicacoes-livros-mobile{
+    display: none;
+    
+}
+ 
+.banner__nossas-indicacoes-desktop, .banner__indicacoes-livros-desktop{
+    display: flex;
+    margin: 2em auto;
+ }
+
+h1.indicacoes-livros__titulo {
+    margin: 2em auto 2em;
+    font-size: 24px;
+    width: 50%;
+    border-radius: 16px;
+    padding: 0.5em;
+}
+
+button.voce-sabia-chamada-arteterapia__botao {
+    font-weight: 700;
+    padding: 1.5em 4em;
+    border-radius: 16px;
+}
+
+button.voce-sabia-chamada-arteterapia__botao:hover{
+    background-color: var(--amarelo);
+}
+
+img.banner_meditacao-mobile {
+    display: none;
+
+}
+
+img.banner_meditacao-desktop {
+    display: flex;
+}
+
+button.botao_link-meditacao{
+    margin: 4em auto;
+}
+
+img.logo__pagina-indicacoes {
+    margin: 6em auto;
+
+}
+
+/* PÁGINA QUEM SOMOS*/
+
+img.banner__quem-somos-desktop {
+    display: flex;
+    margin: 3em auto;
+}
+
+
+img.banner__quem-somos-mobile {
+    display: none;
+}
+
+img.banner_entre-em-contato-mobile {
+    display: none;
+}
+
+img.banner_entre-em-contato-desktop {
+    display: flex;
+    margin: 2em auto;
+}
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    .banner__header-desktop{
+        display: flex;
+        width: 100%;
+    }
+
+    .container__frase-informativa-desktop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .frase-informativa-texto-desktop{
+        font-size: 22px;
+        
+    }
+
+    .banner__header {
+        display: none;
+    }
+
+    .container__cards{
+        display: none;
+    }
+
+    .container__frase-informativa{
+        display: none;
+    }
+
+    .card-conteudo-desktop{
+        width: 626px;
+        height: 340px;
+    }
+
+    .container__cards-desktop{
+        gap: 1em;
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+        grid-template-rows: auto auto;         /* 2 linhas automáticas */
+        margin: 2em auto;                        /* centraliza na página */
+        
+    }
+
+    .contato__profissionais-mobile{
+        display: none;
+    }
+
+        /*PÁGINA ARTETERAPIA*/
+
+    .banner_arteterapia-mobile, .banner__nise-de-oliveira-mobile, .banner_cenario-dos-sonhos-mobile{
+        display: none;
+    }
+
+    button.botao__indica-videos {
+    font-size: 26px;
+    margin: 6em auto;
+}
+
+    .banner_arteterapia-desktop, .banner__nise-de-oliveira-desktop, .banner_cenario-dos-sonhos-desktop {
+        margin: 8em auto;
+    }
+
+    .texto-filme-nise {
+    font-size: 22px;
+}
+
+    h1.titulo_pratica-arteterapia {
+    margin: 4em auto 4em;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+    .notes__container-desktop > img{
+        width: 520px;
+}
+     .dicas-adicionais__container > h1 {
+        margin: 4em auto 4em;
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+}
+
+    .dicas-adicionais-texto {
+        text-align: center;
+        margin: -4em 2em 4em;
+        font-size: 22px;
+}
+
+.banner_cenario-dos-sonhos-desktop{
+    display: flex;
+}
+
+    /*PÁGINA BUSCAR AJUDA*/
+
+    img.banner__encontre-ajuda-mobile, img.banner-cvv-mobile{
+        display: none;
+    }
+
+    
+    .banner__encontre-ajuda-desktop, .banner-cvv-desktop{
+        display: flex;
+        justify-content: center;
+        margin: 6em auto;
+    }
+
+    h1.titulo__terapia-social {
+    margin: 2em auto 2em;
+    font-size: 24px;
+
+    
+}
+
+    a.card__terapia-social-link {
+    display:  flex;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em auto;
+    width: 40%;  
+    font-size: 24px;  
+}
+
+    h1.titulo__terapia-social {
+    margin: 4em auto 4em;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h1.card__titulo {
+    font-size: 22px;
+}
+
+p.card__texto {
+    font-size: 20px;
+}
+
+a.botao-saiba-mais-cvv{
+    font-size: 24px;
+    margin: 5em auto;
+    max-width: 30%;
+}
+
+ /*PÁGINA INDICAÇÕES*/
+
+ .banner__nossas-indicacoes-mobile, .banner__indicacoes-livros-mobile{
+    display: none;
+    
+}
+ 
+.banner__nossas-indicacoes-desktop{
+    display: flex;
+    margin: 6em auto;
+    width: 100%;
+
+ }
+
+ img.banner__indicacoes-livros-desktop, .banner_meditacao-desktop {
+    display: flex;
+    margin: 6em auto;
+    width: 90%;
+}
+
+ h1.indicacoes-livros__titulo {
+    margin: 4em auto 4em;
+    font-size: 40px;
+    font-weight: 900;
+    border-radius: 50px;
+}
+
+a.link_meditacao {
+    font-weight: 700;
+    padding: 0.5em 4em;
+    border-radius: 16px;
+    font-size: 24px;
+
+}
+
+a.link_meditacao:hover{
+    text-transform: uppercase;
+}
+
+button.botao_link-meditacao {
+    margin: 6em auto;
+}
+
+img.logo__pagina-indicacoes {
+    display: flex;
+    flex-direction: row;
+    margin: 10em auto;
+    width: 200px;
+}
+
+/* PÁGINA QUEM SOMOS*/
+
+img.banner__quem-somos-desktop {
+    display: flex;
+    margin: 4em auto;
+    width: 100%;
+}
+
+img.banner__quem-somos-mobile {
+    display: none;
+}
+
+img.banner_entre-em-contato-mobile {
+    display: none;
+}
+
+p.quem-somos__texto {
+    font-size: 2em;
+}
+
+.quem-somos__container {
+    padding: 8em;
+}
+
+.container__contato-icones {
+    margin: 10em;
+}
+
+img.contato__link-img {
+    width: 80px;
+}
+
+
+
+}
